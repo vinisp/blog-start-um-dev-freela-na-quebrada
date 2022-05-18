@@ -23,7 +23,7 @@ export default function Home({ allPostData }) {
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
         <ul className={utilStyles.list}>
-          {allPostData.map(({ id, date, title }) => (
+          {allPostData.map(({ id, date, title, resume }) => (
             <li className={utilStyles.listItem} key={id}>
               <Link href={`/posts/${id}`}>
                 <a>{title}</a>
@@ -33,6 +33,7 @@ export default function Home({ allPostData }) {
               <small className={utilStyles.lightText}>
                 <Date dateString={date} />
               </small>
+              <p>{resume} </p>
             </li>
           ))}
         </ul>
