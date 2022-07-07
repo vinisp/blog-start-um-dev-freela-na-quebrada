@@ -13,11 +13,19 @@ export default function Home({ allPostData }) {
           <title>{siteTitle}</title>
         </Head>
         <section className={utilStyles.headingMd}>
+          <p></p>
           <p>
-            Dicas para desenvolver lojas e plataformas com ReactJS, React Native
-            e NextJs.
+            No começo pensei em criar um blog focado em "Dicas para desenvolver
+            lojas e plataformas com ReactJS, React Native NextJs e Node js" e
+            claro, falar muito sobre Javascript, só que passado alguns dias
+            também senti uma necessidade de abordar outros temas dos quais sofro
+            e tenho experiência para escrever, essas ideias só me vieram a mente
+            após passar aquela euforia que sinto em cada começo de projeto,
+            então além de falar sobre essas tecnologias também vou falar de
+            temas muito importantes na vida do desenvolvedor e do ser humano,
+            serão temas ligados a motivação pessoal, planejamento e algumas
+            questões filosoficas e socias que cercam nossa vida.
           </p>
-          <p>Aqui vai um paragrafo explicando o que aconteceu</p>
         </section>
       </div>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
